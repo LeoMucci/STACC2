@@ -569,7 +569,9 @@ ul {
 #conttexto{
 
   background-color: var(--cont-color);
-
+  columns: 200px 1;
+  column-gap: 30px;
+  padding: 25px;
 }
 .fatec {
 
@@ -583,9 +585,57 @@ ul {
 
 .text1{
 
+  columns: 200px 1;
+  column-gap: 30px;
+  padding: 25px;
   font-size: 1rem;
   font-weight: 500;
   color: #ffffff;
   padding: 12px 60px;
+
+}
+
+.titulo {
+
+  column-span: all;
+  display: block;
+
+
+}
+
+
+.cor {
+
+  background-color: var(--cont-color);
+  margin-left: 50px;
+  width: calc(100% - 90px);
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar.close {
+    width: 10px;
+  }
+
+  .sidebar {
+    width: 75%;
+  }
+
+  .text1 {
+
+    padding: 0;
+
+  }
+  
+  .sidebar.close~.home {
+    left: 60px;
+  }
+
+  .cor {
+    margin-left: 0px;
+    padding: 20px;
+  }
+  
+
 
 }

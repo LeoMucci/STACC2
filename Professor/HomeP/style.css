@@ -626,6 +626,7 @@ ul {
   color: rgb(1, 1, 1);
   cursor: pointer;
   transition: 400ms;
+  transition: all 1s;
 }
 
 .cards .card p.tip {
@@ -651,7 +652,24 @@ ul {
     width: 10px;
   }
 
+  .sidebar {
+    width: 75%;
+  }
   
+  .cards .red{
 
+ 
+    height: 200px;
+    width: 200px;
+
+  }
+
+  .cards .white{
+
+    margin-top: auto;
+    height: 200px;
+    width: 200px;
+
+  }
 
 }
